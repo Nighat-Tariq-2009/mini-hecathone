@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- <div>
+        <h2>Signin</h2>
+        
+        <label >Email <br />
+            <input type="email" id="signinEmail">
+             <br />
+        </label>
+
+        <label >password <br />
+            <input type="password" id="signinPassword">
+             <br />
+        </label>
+
+        <button id="signinBtn">Signin</button>
+
+    </div> -->
+
+    <div class="container">
+        <div class="form-box">
+          <h1 class="title">Sign In</h1>
+          <div class="underline"></div>
+          <form >
+            <div class="input-group">
+    
+              <div class="input-field">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="signinEmail" placeholder="Email" required>
+              </div>
+    
+              <div class="input-field">
+               
+                <i class="fa-solid fa-key"></i>
+                <input type="password" id="signinPassword" placeholder="Password" required>
+              </div>
+              <p>
+               <span class="text"> password suggestion</span> <a href="#">Click Here!</a>
+              </p>
+            </div>
+            <div class="btn-field">
+              
+              <button type="button" id="signinBtn" class="loginbtn">SIGN IN</button>
+            </div>
+         </form>
+     </div>
+    </div>
+      
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+
+    <script src="firebase.js" type="module"></script>
+    <script src="./signin.js" type="module"></script>
+</body>
+</html>

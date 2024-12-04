@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini-hecathone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ 
+
+    <div class="container">
+        <div class="form-box">
+          <h1 class="title">Sign Up</h1>
+          <div class="underline"></div>
+          <form >
+            <div class="input-group">
+                <div class="input-field">
+                    <i class="fa-solid fa-address-card"></i>
+                    <input type="text" id="name" placeholder="write name" required>
+                  </div>
+
+                  <div class="input-field">
+                    <i class="fa-solid fa-address-card"></i>
+                    <input type="text" id="fullName" placeholder="write Full Name" required>
+                  </div>
+            
+              <div class="input-field">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="email" placeholder="Email" required>
+              </div>
+    
+              <div class="input-field">
+               
+                <i class="fa-solid fa-key"></i>
+                <input type="password" id="password" placeholder="Password" required>
+              </div>
+
+            
+            
+            </div>
+            <div class="btn-field">
+              
+              <button type="button" id="signupBtn">SIGN UP</button>
+            </div><br>
+
+            <div class="btn-field">
+                <button id="googleBtn">SIGN IN WITH GOOGLE</button>
+            </div>
+            <p>
+              <span class="text"> Have already an account?</span> <a href="./signin.html">SIGN IN Here</a>
+             </p>
+          </form>
+    
+    
+        </div>
+    
+      </div>
+    
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+     <script src="firebase.js" type="module"></script>
+    <script src="./app.js" type="module"></script>
+</body>
+</html>
